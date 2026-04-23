@@ -6,12 +6,11 @@ CREATE TABLE PRODUCTS (
 );
 
 INSERT INTO PRODUCTS (productID,prdName,size,price)
-VALUES (
+VALUES
 	("P01", "Áo sơ mi trắng", "L", 250000),
 	("P02", "Quần Jean xanh", "M", 450000),
 	("P03", "Áo thun Basic", "XL", 150000),
-	("P04", "Áo hoodie", NULL, -200000)
-);
+	("P04", "Áo hoodie", NULL, -200000);
 
 UPDATE PRODCUTS SET price = 400000
 WHERE productID = "P02";
